@@ -1,6 +1,7 @@
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
+
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
  * vendor/assets/stylesheets directory can be referenced here using a relative path.
@@ -13,3 +14,34 @@
  *= require_tree .
  *= require_self
  */
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+@import url("stylesheets/answer.css");
+@import url("stylesheets/ask.css");
+
+ .container {
+  max-width: 900px;
+  margin: 50px auto;
+ }
+
+
+ body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+.text-center {
+  text-align: center;
+}
+
+.question-container {
+  background-color: #eae3e3;
+
+}
+
+.answer-container {
+  background-color: #8defc3;
+
+}
