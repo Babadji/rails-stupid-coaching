@@ -43,5 +43,8 @@
 
 .answer-container {
   background-color: #8defc3;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 
 }
